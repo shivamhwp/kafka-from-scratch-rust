@@ -15,3 +15,6 @@ kafka is an open-source distributed event streaming platform. it's like message 
 4. in message queues, you publish once and consume once. in pub-subs, you publish once and consume multiple times. in kafka, you can do both.
 
 other benefits include replication, fault tolerance, a custom tcp protocol (which is blazingly fast), etc etc.
+
+read about kafka here : [kafka](https://kafka.apache.org/)
+for more indepth explanation, watch this : [link](https://www.youtube.com/watch?v=R873BlNVUB4),[Hussein Nasser](https://www.youtube.com/@hnasr/videos) is great.
