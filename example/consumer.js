@@ -6,7 +6,7 @@ async function run() {
   try {
     const kafka = new Kafka({
       clientId: "myapp",
-      brokers: [`shivam-mac.local:9092`],
+      brokers: [`shivam-mac.local:9092`], // your computer's name
     });
     const consumer = kafka.consumer({
       groupId: "group1",

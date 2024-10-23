@@ -10,7 +10,7 @@ async function run() {
       brokers: [`shivam-mac.local:9092`],
     });
     const producer = kafka.producer({
-      createPartitioner: Partitioners.LegacyPartitioner,
+      createPartitioner: Partitioners.LegacyPartitioner, // overriding default partitioning behaviour
     });
 
     console.log("connecting...");
