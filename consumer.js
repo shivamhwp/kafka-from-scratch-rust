@@ -1,4 +1,5 @@
 import { Kafka } from "kafkajs";
+
 run();
 
 async function run() {
@@ -8,7 +9,7 @@ async function run() {
       brokers: [`shivam-mac.local:9092`],
     });
     const consumer = kafka.consumer({
-      groupId: "test",
+      groupId: "group1",
     });
 
     console.log("connecting...");
