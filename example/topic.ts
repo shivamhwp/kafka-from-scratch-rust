@@ -17,7 +17,7 @@ async function run() {
       topics: [
         {
           topic: "Users",
-          numPartitions: "2",
+          numPartitions: 2,
         },
       ],
     });
